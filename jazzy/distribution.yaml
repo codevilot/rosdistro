@@ -2636,6 +2636,21 @@ repositories:
       url: https://github.com/stonier/ecl_tools.git
       version: devel
     status: maintained
+  echo_graphic:
+    doc:
+      type: git
+      url: https://github.com/codevilot/echo-graphic.git
+      version: main
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/codevilot/echo-graphic-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/codevilot/echo-graphic.git
+      version: main
+    status: developed
   eigen3_cmake_module:
     doc:
       type: git
